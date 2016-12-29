@@ -43,8 +43,8 @@ accounting.prototype = {
 			//now we need to check if the funds moved and balances are updated
 			fromNewBal = getItcBalance(_from);
 			toNewBal = getItcBalance(_to);
-			assert(fromNewBal, fromOldBal - _amount);
-			assert(toNewBal, toOldBal + _amount);
+			//assert(fromNewBal, fromOldBal - _amount);
+			//assert(toNewBal, toOldBal + _amount);
 			//if something went wrong, we need to handlehere
 
 			//then we should fire an event logging the transfer that happned
@@ -80,7 +80,7 @@ accounting.prototype = {
         <sys_created_on>2016-12-27 00:01:21</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>d8b1e6f7db7322005c335ff0cf9619c0</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>accounting</sys_name>
         <sys_package display_value="ITCash" source="x_83654_itcash">c1f91bffdb2322005c335ff0cf961951</sys_package>
         <sys_policy>read</sys_policy>
@@ -88,6 +88,6 @@ accounting.prototype = {
         <sys_scope display_value="ITCash">c1f91bffdb2322005c335ff0cf961951</sys_scope>
         <sys_update_name>sys_script_include_d8b1e6f7db7322005c335ff0cf9619c0</sys_update_name>
         <sys_updated_by>fcsag01</sys_updated_by>
-        <sys_updated_on>2016-12-29 15:42:29</sys_updated_on>
+        <sys_updated_on>2016-12-29 22:01:40</sys_updated_on>
     </sys_script_include>
 </record_update>
