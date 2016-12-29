@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Ledger_Transactions" max_length="40" name="x_83654_itcash_ledger" type="collection">
+        <element default="0" label="Amount" max_length="20" name="amount" type="price"/>
+        <element label="Description" max_length="255" name="description" type="string_full_utf8"/>
+        <element label="From" max_length="32" name="from" reference="x_83654_itcash_bag_of_cash" type="reference"/>
+        <element label="To" max_length="32" name="to" reference="x_83654_itcash_bag_of_cash" type="reference"/>
+        <index name="index">
+            <element name="from"/>
+        </index>
+        <index name="index2">
+            <element name="to"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <hint/>
+        <name>ITCash</name>
+        <order/>
+        <roles>x_83654_itcash.user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>fcsag01</sys_created_by>
+        <sys_created_on>2016-12-14 17:00:49</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f9f9dbffdb2322005c335ff0cf961964</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ITCash</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ITCash" source="x_83654_itcash">c1f91bffdb2322005c335ff0cf961951</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ITCash">c1f91bffdb2322005c335ff0cf961951</sys_scope>
+        <sys_update_name>sys_ui_application_f9f9dbffdb2322005c335ff0cf961964</sys_update_name>
+        <sys_updated_by>fcsag01</sys_updated_by>
+        <sys_updated_on>2016-12-14 17:00:49</sys_updated_on>
+    </sys_ui_application>
+</record_update>

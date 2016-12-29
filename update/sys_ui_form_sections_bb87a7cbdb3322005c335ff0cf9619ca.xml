@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="bb87a7cbdb3322005c335ff0cf9619ca" sys_domain="global" table="x_83654_itcash_ledger" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>fcsag01</sys_created_by>
+            <sys_created_on>2016-12-24 20:20:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b387a7cbdb3322005c335ff0cf9619cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_83654_itcash_ledger" name="x_83654_itcash_ledger" sys_domain="global" view="Default view">bb87a7cbdb3322005c335ff0cf9619ca</sys_ui_form>
+            <sys_ui_section caption="Timestamp" display_value="Timestamp" name="x_83654_itcash_ledger" sys_domain="global" view="Default view">dfe6af8bdb3322005c335ff0cf961909</sys_ui_section>
+            <sys_updated_by>fcsag01</sys_updated_by>
+            <sys_updated_on>2016-12-24 20:20:28</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>fcsag01</sys_created_by>
+            <sys_created_on>2016-12-24 20:20:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bf87a7cbdb3322005c335ff0cf9619cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_83654_itcash_ledger" name="x_83654_itcash_ledger" sys_domain="global" view="Default view">bb87a7cbdb3322005c335ff0cf9619ca</sys_ui_form>
+            <sys_ui_section caption="Transaction" display_value="Transaction" name="x_83654_itcash_ledger" sys_domain="global" view="Default view">7b87a7cbdb3322005c335ff0cf9619c9</sys_ui_section>
+            <sys_updated_by>fcsag01</sys_updated_by>
+            <sys_updated_on>2016-12-24 20:20:28</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_83654_itcash_ledger</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>fcsag01</sys_created_by>
+            <sys_created_on>2016-12-24 20:20:27</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bb87a7cbdb3322005c335ff0cf9619ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_83654_itcash_ledger</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ITCash" source="x_83654_itcash">c1f91bffdb2322005c335ff0cf961951</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="ITCash">c1f91bffdb2322005c335ff0cf961951</sys_scope>
+            <sys_update_name>sys_ui_form_sections_bb87a7cbdb3322005c335ff0cf9619ca</sys_update_name>
+            <sys_updated_by>fcsag01</sys_updated_by>
+            <sys_updated_on>2016-12-24 20:20:27</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

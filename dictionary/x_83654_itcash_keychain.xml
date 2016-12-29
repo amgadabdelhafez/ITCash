@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Itcash Keychain" max_length="40" name="x_83654_itcash_keychain" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Label" max_length="255" name="u_label" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true" label="Notes" max_length="255" name="u_notes" type="string_full_utf8"/>
+        <element label="Owner" max_length="32" name="u_owner" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Private Key" max_length="255" name="u_private_key" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true" label="Seed Phrase" max_length="255" name="u_seed_phrase" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true" label="Public Key" max_length="255" name="u_string_full_utf8_3" type="string_full_utf8"/>
+        <index name="index">
+            <element name="u_owner"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Bag of Cash" max_length="40" name="x_83654_itcash_bag_of_cash" type="collection">
+        <element label="address" max_length="255" name="address" type="string_full_utf8"/>
+        <element label="Balance" max_length="40" name="balance" type="integer"/>
+        <element display="true" label="Label" max_length="255" name="label" type="string_full_utf8"/>
+        <element label="Owner" max_length="32" name="owner" reference="x_83654_itcash_keychain" type="reference"/>
+        <index name="index">
+            <element name="owner"/>
+        </index>
+    </element>
+</database>

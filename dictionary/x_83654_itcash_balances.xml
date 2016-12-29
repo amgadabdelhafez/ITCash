@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Balances" max_length="40" name="x_83654_itcash_balances" type="collection">
+        <element label="balance" max_length="40" name="balance" type="integer"/>
+        <element label="boc" max_length="32" name="boc" reference="x_83654_itcash_bag_of_cash" type="reference"/>
+        <index name="index">
+            <element name="boc"/>
+        </index>
+    </element>
+</database>

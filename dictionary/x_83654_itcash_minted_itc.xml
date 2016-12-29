@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Minted ITC" max_length="40" name="x_83654_itcash_minted_itc" type="collection">
+        <element label="Amount" max_length="40" name="amount" type="integer"/>
+        <element label="Expiry date" max_length="40" name="expiry_date" type="glide_date"/>
+        <element label="Label" max_length="255" name="label" type="string_full_utf8"/>
+        <element label="Mint date" max_length="40" name="mint_date" type="glide_date"/>
+        <element label="Owner" max_length="32" name="owner" reference="sys_user" type="reference"/>
+        <element label="Decimals" max_length="40" name="u_decimals" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="New String (Full UTF-8)" max_length="255" name="u_string_full_utf8_3" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true" default="ITC" label="Symbol" max_length="40" name="u_symbol" type="string"/>
+        <index name="index">
+            <element name="owner"/>
+        </index>
+    </element>
+</database>
