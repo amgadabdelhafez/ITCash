@@ -13,15 +13,15 @@
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>fcsag01</sys_created_by>
         <sys_created_on>2016-12-24 20:16:07</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
-        <sys_id>80962b8bdb3322005c335ff0cf9619b7</sys_id>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>631d5e34db4432005c335ff0cf961970</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_83654_itcash_ledger</sys_name>
         <sys_package display_value="ITCash" source="x_83654_itcash">c1f91bffdb2322005c335ff0cf961951</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ITCash">c1f91bffdb2322005c335ff0cf961951</sys_scope>
-        <sys_update_name>ua_table_licensing_config_80962b8bdb3322005c335ff0cf9619b7</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_631d5e34db4432005c335ff0cf961970</sys_update_name>
         <sys_updated_by>fcsag01</sys_updated_by>
         <sys_updated_on>2016-12-24 20:16:07</sys_updated_on>
     </ua_table_licensing_config>

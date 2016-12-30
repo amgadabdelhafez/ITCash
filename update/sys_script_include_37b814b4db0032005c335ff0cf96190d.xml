@@ -7,15 +7,33 @@
         <client_callable>false</client_callable>
         <description/>
         <name>budgeting</name>
-        <script><![CDATA[var budgeting = Class.create();
+        <script><![CDATA[/**
+ITCash Issuance and Allocation Component
+==
+
+Budgeting module, implements the Funding And Budgets functional component from the application architecture
+Arch_FC -> Class -> SNow Script Include --> n functions and n tables
+Arch_DO - > Table -> SNow Table
+this class will do the follwoing:
+1- Funding and Issuance
+	- function: mintItc()
+2- Budgeting and Allocation
+	- function: AllocateItc()
+
+*/
+
+var budgeting = Class.create();
 budgeting.prototype = {
 	initialize: function() {
 	},
-	//here we mint new ITC, usually based on the total budget, because we will allocate that later to different boc's
-	//the idea is this is the total ITC for the year, all variance reporting will be based on that fact
+	/**
+	here we mint new ITC, usually based on the total budget,
+	because we will allocate that later to different boc's
+	the idea is this is the total ITC for the year, all variance reporting
+	will be based on that fact
 	
-	//TODO
-	/*
+	Data Model
+	==
 	Amount	Integer
 	Expiry date	Date
 	Label	String
@@ -34,12 +52,34 @@ budgeting.prototype = {
 		minted_gr.insert();
 	},
 	
-	allocateItc: function(_name, _amount) {
+	//so here we allocate (move) ITC from the mintedITC table to one boc
+	//we pass the boc sys_id for now, the amount, and the funding source (budget/mintedITC)
+	
+	
+	allocateItc: function(_budget, _boc, _amount) {
+		//first we get the budget balance and see if it's enuogh
 		var minted_gr = new GlideRecord("x_83654_itcash_minted_itc");
-		minted_gr.initialize();
-		minted_gr.label = _name;
-		minted_gr.amount = _amount;
-		minted_gr.insert();
+		minted_gr.get(_budget);
+		//check balance more than amount to allocate
+		if(minted_gr.amount < _amount){
+			//not enough ITC for this allocation
+			return false;
+		}
+		//now we open the bag of cash
+		var boc_gr = new GlideRecord("x_83654_itcash_bag_of_cash");
+		boc_gr.get(_boc);
+		//atomic transaction, booom!
+		boc_gr.balance = boc_gr.balance + _amount;
+		minted_gr.amount = minted_gr.amount - _amount;
+		boc_gr.update();
+		minted_gr.update();
+		//TODO checl return status of the gr updates
+		
+		return "success!";
+		/**
+		TODO
+		create a ledger tx for the funding, that's where we'll pass the note
+ 		*/
 	},
 	type: 'budgeting'
 };]]></script>
@@ -48,7 +88,7 @@ budgeting.prototype = {
         <sys_created_on>2016-12-29 15:53:19</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>37b814b4db0032005c335ff0cf96190d</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>budgeting</sys_name>
         <sys_package display_value="ITCash" source="x_83654_itcash">c1f91bffdb2322005c335ff0cf961951</sys_package>
         <sys_policy>read</sys_policy>
@@ -56,6 +96,6 @@ budgeting.prototype = {
         <sys_scope display_value="ITCash">c1f91bffdb2322005c335ff0cf961951</sys_scope>
         <sys_update_name>sys_script_include_37b814b4db0032005c335ff0cf96190d</sys_update_name>
         <sys_updated_by>fcsag01</sys_updated_by>
-        <sys_updated_on>2016-12-29 22:10:17</sys_updated_on>
+        <sys_updated_on>2016-12-30 00:55:08</sys_updated_on>
     </sys_script_include>
 </record_update>

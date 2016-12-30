@@ -2755,7 +2755,7 @@ https://github.com/MikeMcl/bignumber.js&#13;
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>fcsag01</sys_created_by>
         <sys_created_on>2016-12-17 05:38:36</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>a52a1074dbb722005c335ff0cf96196e</sys_id>
         <sys_mod_count>3</sys_mod_count>
         <sys_name>bignumber_js</sys_name>

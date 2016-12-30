@@ -63,7 +63,7 @@ return crypto_box_beforenm(k,publicKey,secretKey),k},nacl.box.after=nacl.secretb
         <sys_class_name>sys_ui_script</sys_class_name>
         <sys_created_by>fcsag01</sys_created_by>
         <sys_created_on>2016-12-17 05:18:21</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>ada51c30dbb722005c335ff0cf9619ff</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>x_83654_itcash.eth-lightwallet</sys_name>
