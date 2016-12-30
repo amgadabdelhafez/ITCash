@@ -12,7 +12,7 @@
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>fcsag01</sys_created_by>
         <sys_created_on>2016-12-14 17:00:47</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>9df99bffdb2322005c335ff0cf96199c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_83654_itcash_keychain</sys_name>
