@@ -104,7 +104,7 @@
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>fcsag01</sys_created_by>
             <sys_created_on>2016-12-17 04:33:45</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>6fbb88b8db7722005c335ff0cf9619f5</sys_id>

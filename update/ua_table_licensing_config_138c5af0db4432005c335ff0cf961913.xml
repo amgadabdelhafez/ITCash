@@ -5,24 +5,24 @@
         <license_condition/>
         <license_model>none</license_model>
         <license_roles/>
-        <name>x_83654_itcash_keychain</name>
+        <name>x_83654_itcash_bag_of_cash</name>
         <op_delete>true</op_delete>
         <op_insert>true</op_insert>
         <op_update>true</op_update>
         <owner_condition/>
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>fcsag01</sys_created_by>
-        <sys_created_on>2016-12-14 17:00:48</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
-        <sys_id>6df99bffdb2322005c335ff0cf9619d3</sys_id>
+        <sys_created_on>2016-12-14 17:52:42</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>138c5af0db4432005c335ff0cf961913</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_83654_itcash_keychain</sys_name>
+        <sys_name>x_83654_itcash_bag_of_cash</sys_name>
         <sys_package display_value="ITCash" source="x_83654_itcash">c1f91bffdb2322005c335ff0cf961951</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ITCash">c1f91bffdb2322005c335ff0cf961951</sys_scope>
-        <sys_update_name>ua_table_licensing_config_6df99bffdb2322005c335ff0cf9619d3</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_138c5af0db4432005c335ff0cf961913</sys_update_name>
         <sys_updated_by>fcsag01</sys_updated_by>
-        <sys_updated_on>2016-12-14 17:00:48</sys_updated_on>
+        <sys_updated_on>2016-12-14 17:52:42</sys_updated_on>
     </ua_table_licensing_config>
 </record_update>

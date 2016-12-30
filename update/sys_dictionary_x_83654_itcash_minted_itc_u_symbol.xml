@@ -47,17 +47,17 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>fcsag01</sys_created_by>
         <sys_created_on>2016-12-17 04:32:59</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
-        <sys_id>e89b00f8db7722005c335ff0cf96195e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6b8c5af0db4432005c335ff0cf961946</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Symbol</sys_name>
         <sys_package display_value="ITCash" source="x_83654_itcash">c1f91bffdb2322005c335ff0cf961951</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="ITCash">c1f91bffdb2322005c335ff0cf961951</sys_scope>
         <sys_update_name>sys_dictionary_x_83654_itcash_minted_itc_u_symbol</sys_update_name>
-        <sys_updated_by>fcsag01</sys_updated_by>
-        <sys_updated_on>2016-12-17 04:33:00</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2016-12-30 01:22:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
